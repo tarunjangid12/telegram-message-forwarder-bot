@@ -79,7 +79,7 @@ async def start(client, message:Message):
         text=script.START_MSG.format(
                 message.from_user.first_name),
         reply_markup=buttons,
-        parse_mode="html")
+        #parse_mode="html")
 
 
 @app.on_message(filters.command("stop"))
@@ -101,7 +101,7 @@ async def help(client, message):
     await client.send_message(
         chat_id=message.chat.id,
         text=script.HELP_MSG,
-        parse_mode="html")
+        #parse_mode="html")
 
 
 
