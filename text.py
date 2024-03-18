@@ -1,7 +1,7 @@
 class script(object):
     START_MSG = """Hi {},
     
-    i am a simple bot than can automatically forward messages from one channel to other"""
+I am a simple bot than can automatically forward messages from one channel to other"""
 
     HELP_MSG = """<a href=https://telegram.me/MysterySD>꧁❏รเlєภt ๔є๓๏ภ❏꧂</a>"""
 
