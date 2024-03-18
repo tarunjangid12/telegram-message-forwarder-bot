@@ -13,6 +13,7 @@ from bot import app, monitored_chats, chats_map, sudo_users
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
 from pyrogram import Client, filters 
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from text import script
 from database import userDb
