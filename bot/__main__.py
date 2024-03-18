@@ -1,14 +1,18 @@
+import os
+from config import Config
 import random
 import logging
 from time import sleep
 import traceback
+import asyncio
+import sys
 
 from pyrogram import filters
 
 from bot import app, monitored_chats, chats_map, sudo_users
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
-from pyrogram import Client
+from pyrogram import Client, filters 
 
 from text import script
 from database import userDb
