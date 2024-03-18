@@ -11,4 +11,6 @@ class Config:
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Test")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
     USERDATA = os.environ.get('USERDATA', 'USER_DATA')
-    
+    FORCE_SUB = os.environ.get('FORCE_SUB', '-1002093365834') #
+    AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
+    FORCE_SUB) else None 
