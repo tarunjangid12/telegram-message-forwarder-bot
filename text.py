@@ -1,7 +1,7 @@
 class script(object):
     START_MSG = """Hi {},
     
-I am a simple bot than can automatically forward messages from one channel to other"""
+I Can Instantly Forward (Or Copy) Messages From Various Telegram Chats (Private/public Channels, Private/Public Groups, Direct Chats, And Bots) To One Or Multiple Chats"""
 
     HELP_MSG = """<a href=https://telegram.me/MysterySD>꧁❏รเlєภt ๔є๓๏ภ❏꧂</a>"""
 
