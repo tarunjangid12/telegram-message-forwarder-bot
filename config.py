@@ -15,3 +15,4 @@ class Config:
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002093365834"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6805306768")) 
