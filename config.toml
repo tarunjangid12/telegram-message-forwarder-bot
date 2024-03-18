@@ -4,11 +4,11 @@
 # sudo_users can be obtained from https://t.me/userinfobot
 
 [pyrogram]
-api_id = 12345                                                      # required
-api_hash = "0123456789abcdef0123456789abcdef"                       # required
-bot_token = "123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ"                  # either bot_token or session_string is required
+api_id = 23941369                                                      # required
+api_hash = "bbd37235e41a95d03bc144ea6bc7b2cd"                       # required
+bot_token = "6609713747:AAH7Ijmim8l-dzaw2fn_0eB8aZgikanVVzc"                  # either bot_token or session_string is required
 session_string = "1BVn1-ABCD1234efgh5678IJKLmnoPQRsTUVwxyZxxxxxxxx" # either bot_token or session_string is required
-sudo_users = [123456789, 123456789]                                 # optional
+sudo_users = [6805306768, 123456789]                                 # optional
 
 
 # chat ids can be obtained from https://t.me/getidsbot
@@ -18,8 +18,8 @@ sudo_users = [123456789, 123456789]                                 # optional
 # Atleast one chat must be added
 
 [[chats]]
-from = -100123456789        # required
-to = 123456789              # required
+from = -1002093365834        # required
+to = -1002046934698              # required
 replace = { "old" = "new" } # optional
 
 [[chats]]
