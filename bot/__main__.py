@@ -79,7 +79,7 @@ async def start(client, message:Message):
         text=script.START_MSG.format(
                 message.from_user.first_name),
         reply_markup=buttons,
-        parse_mode="markdown")
+        disable_web_page_preview="True")
 
 
 @app.on_message(filters.command("stop"))
