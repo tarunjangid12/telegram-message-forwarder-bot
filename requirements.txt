@@ -2,3 +2,10 @@ pyrogram==2.0.106
 TgCrypto
 toml
 jsonschema >= 4.18.0
+Dnspython
+pyromod==1.5
+umongo==2.3.0
+motor==2.3.0
+pytz
+asyncio
+aiohttp
