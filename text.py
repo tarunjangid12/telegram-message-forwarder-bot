@@ -1,5 +1,7 @@
 class script(object):
-    START_MSG = """Hi {},This is a simple bot to forward all messages from one channel to other"""
+    START_MSG = """Hi {},
+    
+    This is a simple bot to forward all messages from one channel to other"""
 
     HELP_MSG = """♻️ 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒: <a href=https://telegram.me/Rokubotz>𝖱𝗈𝗄𝗎𝖻𝗈𝗍𝗓"""
 
