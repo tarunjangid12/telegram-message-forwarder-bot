@@ -14,3 +14,4 @@ class Config:
     FORCE_SUB = os.environ.get('FORCE_SUB', '-1002093365834') #
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002093365834"))
