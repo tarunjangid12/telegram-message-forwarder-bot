@@ -110,7 +110,7 @@ async def back_btn(bot,cb):
     await cb.message.edit_text(text=script.START_MSG.format(
                 cb.from_user.first_name),
         reply_markup=buttons,
-        parse_mode="html")
+        #parse_mode="html")
 
 @app.on_callback_query(filters.regex(r'^help$'))
 async def cb_help(bot, cb):
