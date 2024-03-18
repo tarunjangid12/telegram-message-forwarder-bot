@@ -53,8 +53,8 @@ buttons=InlineKeyboardMarkup(
                 InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="abt")
             ],
             [
-                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+mCdsJ7mjeBEyZWQ1"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/+HzGpLAZXTxoyYTNl")
+                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Rokubotz "),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/Team_Roku")
             ]
         ]
         )
