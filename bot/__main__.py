@@ -49,12 +49,12 @@ def work(_:Client, message:Message):
 buttons=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Hᴇʟᴘ", callback_data="help"),
-                InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="abt")
+                InlineKeyboardButton("🧑‍💻 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", callback_data="help"),
+                InlineKeyboardButton("📦 𝖠𝖻𝗈𝗎𝗍", callback_data="abt")
             ],
             [
-                InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Rokubotz"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://t.me/Team_Roku")
+                InlineKeyboardButton("⛅ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌", url="https://t.me/Rokubotz"),
+                InlineKeyboardButton("🌨️ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url="https://t.me/Team_Roku")
             ]
         ]
         )
