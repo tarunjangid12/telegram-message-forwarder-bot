@@ -7,7 +7,7 @@
 api_id = 23941369                                                      # required
 api_hash = "bbd37235e41a95d03bc144ea6bc7b2cd"                       # required
 bot_token = "6609713747:AAH7Ijmim8l-dzaw2fn_0eB8aZgikanVVzc"                  # either bot_token or session_string is required
-session_string = "1BVn1-ABCD1234efgh5678IJKLmnoPQRsTUVwxyZxxxxxxxx" # either bot_token or session_string is required
+session_string = "BABvw20AZS2WvfnDuvU9YkgvHDwmb_y-zKylw5SmJmJ30EKTJT87_-PmISXXp66fWIsnV2Zxxxd3rdJOwomY4teCYQ4JlO1Q3CB8SqUZdkZA1WFFhMoUzkoh6gNLVrKsqVC1P_VMOt2_BoDpPlwSsnZqgenSX9bKrhfXMLGGhy8U9rXJVi_63qjLYqItWWf-GYVDKnLIT7lAWWRzwGuR1a5KxsSMMEqP0LTSc5nlXQQ8GwiAUyj3JCn4MT7cHxrUWugdkWj03wQ0_xN5FW6Obu5S8aodq8bgznxDmrfLmI45K7Zq18zZRh9E2-9THtFFRzPIwCnrUDu5kqSH6woZEhTo8m-9dwAAAAGVoL2QAA" # either bot_token or session_string is required
 sudo_users = [6805306768, 123456789]                                 # optional
 
 
@@ -23,8 +23,8 @@ to = -1002012966352              # required
 replace = { "old" = "new" } # optional
 
 [[chats]]
-from = [123456789, -100123456789]               # required
-to = 123456789                                  # required
+from = -1002093365834               # required
+to =  -1002046934698                                 # required
 replace = { "only_apply_to_this_chat" = "new" } # optional
 
 [[chats]]
