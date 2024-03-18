@@ -101,7 +101,7 @@ async def help(client, message):
     await client.send_message(
         chat_id=message.chat.id,
         text=script.HELP_MSG,
-        parse_mode="markdown")
+        disable_web_page_preview="True")
 
 
 
@@ -110,7 +110,7 @@ async def back_btn(bot,cb):
     await cb.message.edit_text(text=script.START_MSG.format(
                 cb.from_user.first_name),
         reply_markup=buttons,
-        parse_mode="markdown")
+        disable_web_page_preview="True")
 
 @app.on_callback_query(filters.regex(r'^help$'))
 async def cb_help(bot, cb):
