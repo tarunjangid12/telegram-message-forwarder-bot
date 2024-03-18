@@ -61,7 +61,7 @@ buttons=InlineKeyboardMarkup(
 
 
 # Force Sub Handler
-@Client.on_message(filters.private)
+@app.on_message(filters.private)
 async def _(bot: Client, cmd):
     if not await is_subscribed(bot, cmd):
         return await force_sub(bot, cmd)
@@ -69,7 +69,7 @@ async def _(bot: Client, cmd):
     await cmd.continue_propagation()
 
 
-@Client.on_message(filters.private & filters.command('start'))
+@app.on_message(filters.private & filters.command('start'))
 async def start(client, message:Message):
 
 
@@ -82,7 +82,7 @@ async def start(client, message:Message):
         parse_mode="html")
 
 
-@Client.on_message(filters.command("stop"))
+@app.on_message(filters.command("stop"))
 async def stop_button(bot, message):
 
     if str(message.from_user.id) not in Config.OWNER_ID:
@@ -96,7 +96,7 @@ async def stop_button(bot, message):
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
-@Client.on_message(filters.private & filters.command('help'))
+@app.on_message(filters.private & filters.command('help'))
 async def help(client, message):
     await client.send_message(
         chat_id=message.chat.id,
@@ -105,20 +105,20 @@ async def help(client, message):
 
 
 
-@Client.on_callback_query(filters.regex(r'^back$'))
+@app.on_callback_query(filters.regex(r'^back$'))
 async def back_btn(bot,cb):
     await cb.message.edit_text(text=script.START_MSG.format(
                 cb.from_user.first_name),
         reply_markup=buttons,
         parse_mode="html")
 
-@Client.on_callback_query(filters.regex(r'^help$'))
+@app.on_callback_query(filters.regex(r'^help$'))
 async def cb_help(bot, cb):
     await cb.message.edit_text(script.HELP_MSG,reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data='back')]]))
 
 
 
-@Client.on_callback_query(filters.regex(r'^abt$'))   
+@app.on_callback_query(filters.regex(r'^abt$'))   
 async def cb_abt(bot, cb):
     await cb.message.edit_text(text=script.ABOUT_TXT, disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data='back')]]))
 
