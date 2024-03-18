@@ -23,8 +23,8 @@ to = -1002012966352              # required
 replace = { "old" = "new" } # optional
 
 [[chats]]
-from = -1002093365834               # required
-to =  -1001522965640                                 # required
+from = -1001522965640              # required
+to = -1002093365834                                   # required
 replace = { "only_apply_to_this_chat" = "new" } # optional
 
 [[chats]]
